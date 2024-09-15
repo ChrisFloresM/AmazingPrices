@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*============================ body styles ========================================== */
+body {
+    min-height: 100vh;
+    background-color: #E5F2FF;
+    font-family: sans-serif;
+    color: #274867;
+
+    display: grid;
+    grid-template-rows: 8% 1fr 8%;
+}
+
+/*============================ header styles ========================================== */
+
+.header {
+    padding: 15px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(1, 124, 255, 0.5);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__brand, .header__nav {
+    flex: 1 0 50%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10rem;
+}
+
+/*============================ footer styles ========================================== */
+.footer {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-top: 1px solid rgba(1, 124, 255, 0.5);
+}
+
+/*============================ re-usables ========================================== */
+.bold {
+    font-weight: bold;
+}
